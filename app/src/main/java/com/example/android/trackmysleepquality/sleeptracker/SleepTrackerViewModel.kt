@@ -241,6 +241,7 @@ class SleepTrackerViewModel(
         _showSnackbarEvent.value = true
     }
 
+
     /**
      * Called when the ViewModel is dismantled.
      * At this point, we want to cancel all coroutines;
